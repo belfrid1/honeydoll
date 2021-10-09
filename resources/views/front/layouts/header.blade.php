@@ -1,233 +1,311 @@
 <!-------------------------------------  Menu start-------------------------------------->
-<header class="hdr-wrap">
-    <div class="hdr-content hdr-content-sticky">
-        <div class="container">
+<header class="header-area clearfix header-hm9 transparent-bar">
+    <div class="container">
+        <div class="header-top-area">
             <div class="row">
-                      <div class="col-auto show-mobile">
-                    <div class="menu-toggle"> <a href="#" class="mobilemenu-toggle"><i class="icon-menu"></i></a> </div>
-                </div>
-                <!-------------------------------------  Logo at the top  start -------------------------------------->
-                <div class="col-auto hdr-logo">
-                    <!-- Logo-->
-                    <a href="{{route("front.home")}}" class="logo"><img src="{{ asset("public/assets/front/images/logo/logo2.jpg") }}" alt="Logo"></a>
-                </div>
-                <!-------------------------------------  Logo at the top  end-------------------------------------->
-                <div class="hdr-nav hide-mobile nav-holder-s">
-                </div>
-                <div class="hdr-links-wrap col-auto ml-auto">
-                    <div class="hdr-inline-link">
-                        <div class="search_container_desktop">
-                            <div class="dropdn dropdn_search dropdn_fullwidth">
-                                <a href="#" class="dropdn-link  js-dropdn-link only-icon"><i class="icon-search"></i><span class="dropdn-link-txt">Search</span></a>
-                                <div class="dropdn-content">
-                                    <div class="container">
-                                        <form method="get" action="#" class="search search-off-popular">
-                                            <input name="search" type="text" class="search-input input-empty" placeholder="What are you looking for?">
-                                            <button type="submit" class="search-button"><i class="icon-search"></i></button>
-                                            <a href="#" class="search-close js-dropdn-close"><i class="icon-close-thin"></i></a>
-                                        </form>
-                                    </div>
-                                </div>
+                <div class="col-lg-5 col-md-8 col-12">
+                    <div class="language-currency-wrap">
+                        <div class="same-language-currency language-style">
+                            <a href="#">English <i class="fa fa-angle-down"></i></a>
+                            <div class="lang-car-dropdown">
+                                <ul>
+                                    <li><a href="#">French </a></li>
+{{--                                    <li><a href="#">Bangla </a></li>--}}
+{{--                                    <li><a href="#">Hindi  </a></li>--}}
+{{--                                    <li><a href="#">Spanish </a></li>--}}
+                                </ul>
                             </div>
                         </div>
-                        {{-- <div class="dropdn dropdn_wishlist">
-                            <a href="account-wishlist.html" class="dropdn-link only-icon wishlist-link ">
-                                <i class="icon-heart"></i><span class="dropdn-link-txt">Wishlist</span><span class="wishlist-qty">3</span>
-                            </a>
-                        </div> --}}
-
+{{--                        <div class="same-language-currency use-style">--}}
+{{--                            <a href="#">USD  <i class="fa fa-angle-down"></i></a>--}}
+{{--                            <div class="lang-car-dropdown">--}}
+{{--                                <ul>--}}
+{{--                                    <li><a href="#">Taka (BDT) </a></li>--}}
+{{--                                    <li><a href="#">Riyal (SAR) </a></li>--}}
+{{--                                    <li><a href="#">Rupee (INR)  </a></li>--}}
+{{--                                    <li><a href="#">Dirham (AED) </a></li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="same-language-currency">--}}
+{{--                            <p>Call Us 3965410</p>--}}
+{{--                        </div>--}}
+                    </div>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <div class="logo-hm9 text-center">
+                        <a href="index.html">
+                            <img alt="" src="assets/img/logo/logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-4 col-12">
+                    <div class="header-right-wrap">
+                        <div class="same-style header-search">
+                            <a class="search-active" href="#"><i class="pe-7s-search"></i></a>
+                            <div class="search-content">
+                                <form action="#">
+                                    <input type="text" placeholder="Search" />
+                                    <button class="button-search"><i class="pe-7s-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+{{--                        <div class="same-style account-satting">--}}
+{{--                            <a class="account-satting-active" href="#"><i class="pe-7s-user-female"></i></a>--}}
+{{--                            <div class="account-dropdown">--}}
+{{--                                <ul>--}}
+{{--                                    <li><a href="login-register.html">Login</a></li>--}}
+{{--                                    <li><a href="login-register.html">Register</a></li>--}}
+{{--                                    <li><a href="wishlist.html">Wishlist  </a></li>--}}
+{{--                                    <li><a href="my-account.html">my account</a></li>--}}
+{{--                                </ul>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="same-style header-wishlist">--}}
+{{--                            <a href="wishlist.html"><i class="pe-7s-like"></i></a>--}}
+{{--                        </div>--}}
+{{--                        <div class="same-style cart-wrap">--}}
+{{--                            <button class="icon-cart">--}}
+{{--                                <i class="pe-7s-shopbag"></i>--}}
+{{--                                <span class="count-style">02</span>--}}
+{{--                            </button>--}}
+{{--                            <div class="shopping-cart-content">--}}
+{{--                                <ul>--}}
+{{--                                    <li class="single-shopping-cart">--}}
+{{--                                        <div class="shopping-cart-img">--}}
+{{--                                            <a href="#"><img alt="" src="assets/img/cart/cart-1.png"></a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="shopping-cart-title">--}}
+{{--                                            <h4><a href="#">T- Shart & Jeans </a></h4>--}}
+{{--                                            <h6>Qty: 02</h6>--}}
+{{--                                            <span>$260.00</span>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="shopping-cart-delete">--}}
+{{--                                            <a href="#"><i class="fa fa-times-circle"></i></a>--}}
+{{--                                        </div>--}}
+{{--                                    </li>--}}
+{{--                                    <li class="single-shopping-cart">--}}
+{{--                                        <div class="shopping-cart-img">--}}
+{{--                                            <a href="#"><img alt="" src="assets/img/cart/cart-2.png"></a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="shopping-cart-title">--}}
+{{--                                            <h4><a href="#">T- Shart & Jeans </a></h4>--}}
+{{--                                            <h6>Qty: 02</h6>--}}
+{{--                                            <span>$260.00</span>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="shopping-cart-delete">--}}
+{{--                                            <a href="#"><i class="fa fa-times-circle"></i></a>--}}
+{{--                                        </div>--}}
+{{--                                    </li>--}}
+{{--                                </ul>--}}
+{{--                                <div class="shopping-cart-total">--}}
+{{--                                    <h4>Shipping : <span>$20.00</span></h4>--}}
+{{--                                    <h4>Total : <span class="shop-total">$260.00</span></h4>--}}
+{{--                                </div>--}}
+{{--                                <div class="shopping-cart-btn btn-hover text-center">--}}
+{{--                                    <a class="default-btn" href="cart-page.html">view cart</a>--}}
+{{--                                    <a class="default-btn" href="checkout.html">checkout</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="hdr">
-        <div class="hdr-topline hdr-topline--dark js-hdr-top">
-            <div class="container">
-
-                <!-------------------------------------   logout   end -------------------------------------->
-                @if (auth()->guest())
-                   <!-------------------------------------   Login button  start -------------------------------------->
-                    {{-- <div class="row flex-nowrap">
-                        <div class="col hdr-topline-right hide-mobile">
-                            <div class="hdr-inline-link">
-                                <div class="hdr_container_desktop">
-                                    <div class="dropdn dropdn_account dropdn_fullheight">
-                                        <a href="#" class="dropdn-link js-dropdn-link" data-panel="#dropdnAccount"><i class="icon-user"></i><span class="dropdn-link-txt">Account</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-
-                    <!-------------------------------------   Login button  end -------------------------------------->
-                @else
-                <!-------------------------------------   Login button  start -------------------------------------->
-                <div class="row flex-nowrap">
-                    <div class="col hdr-topline-right hide-mobile">
-                        <div class="hdr-inline-link">
-                            <div class="hdr_container_desktop">
-                                <div class="dropdn dropdn_account dropdn_fullheight">
-                                    <a href="{{ route('logout') }}" class="dropdn-link js-dropdn-link"  onclick="event.preventDefault();
-                                    document.getElementById('logout-form').submit();" ><i class="icon-user"></i><span class="dropdn-link-txt">lOGOUT</span></a>
-                                </div>
-                            </div>
-                        </div>
+    <div class="header-bottom sticky-bar header-res-padding header-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-block d-lg-none">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img alt="" src="assets/img/logo/logo.png">
+                        </a>
                     </div>
                 </div>
-
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                        @csrf
-                    </form>
-
-                @endif
-                <!-------------------------------------   logout  end -------------------------------------->
-
+                <div class="col-xl-12 col-lg-12 d-none d-lg-block">
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Sex-dolls</a></li>
+                                <li><a href="shop.html"> Shop <i class="fa fa-angle-down"></i> </a>
+                                    <ul class="mega-menu">
+                                        <li>
+                                            <ul>
+                                                <li class="mega-menu-title"><a href="#">shop layout</a></li>
+                                                <li><a href="shop.html">standard style</a></li>
+                                                <li><a href="shop-filter.html">Grid filter style</a></li>
+                                                <li><a href="shop-grid-2-col.html">Grid 2 column</a></li>
+                                                <li><a href="shop-no-sidebar.html">Grid No sidebar</a></li>
+                                                <li><a href="shop-grid-fw.html">Grid full wide </a></li>
+                                                <li><a href="shop-right-sidebar.html">Grid right sidebar</a></li>
+                                                <li><a href="shop-list.html">list 1 column box </a></li>
+                                                <li><a href="shop-list-fw.html">list 1 column full wide </a></li>
+                                                <li><a href="shop-list-fw-2col.html">list 2 column  full wide</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="mega-menu-title"><a href="#">product details</a></li>
+                                                <li><a href="product-details.html">tab style 1</a></li>
+                                                <li><a href="product-details-2.html">tab style 2</a></li>
+                                                <li><a href="product-details-3.html">tab style 3</a></li>
+                                                <li><a href="product-details-4.html">sticky style</a></li>
+                                                <li><a href="product-details-5.html">gallery style </a></li>
+                                                <li><a href="product-details-slider-box.html">Slider style</a></li>
+                                                <li><a href="product-details-affiliate.html">affiliate style</a></li>
+                                                <li><a href="product-details-6.html">fixed image style </a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="mega-menu-img"><a href="shop.html"><img src="assets/img/banner/banner-12.png" alt=""></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="shop.html">Collection</a></li>
+                                <li><a href="#"> Pages <i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="about.html">about us</a></li>
+                                        <li><a href="cart-page.html">cart page</a></li>
+                                        <li><a href="checkout.html">checkout </a></li>
+                                        <li><a href="wishlist.html">wishlist </a></li>
+                                        <li><a href="my-account.html">my account</a></li>
+                                        <li><a href="login-register.html">login / register </a></li>
+                                        <li><a href="contact.html">contact us </a></li>
+                                        <li><a href="404.html">404 page </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="blog.html">blog standard</a></li>
+                                        <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
+                                        <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
+                                        <li><a href="blog-details.html">blog details 1</a></li>
+                                        <li><a href="blog-details-2.html">blog details 2</a></li>
+                                        <li><a href="blog-details-3.html">blog details 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html"> About </a></li>
+                                <li><a href="contact.html"> Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="hdr-content">
-            <div class="container">
-                <div class="row">
-                    <!-------------------------------------   Menu bar. Including product, accessories, toys, underwear, shops  start -------------------------------------->
-                    <div class="col-auto show-mobile">
-                        <div class="menu-toggle"> <a href="#" class="mobilemenu-toggle"><i class="icon-menu"></i></a> </div>
-                    </div>
-                    <div class="col-auto hdr-logo">
-                        <a href="{{route("front.home")}}" class="logo"><img src="{{ asset("public/assets/front/images/logo/logo2.jpg") }}" alt="Logo"></a>
-                    </div>
-                    <div class="hdr-nav hide-mobile nav-holder justify-content-center px-4">
-                        <ul class="mmenu mmenu-js">
-                            <li><a href="{{ route('front.home') }}" class="{{ request()->is('sex-doll') ? 'active' : '' }}">Sex dolls</a></li>
-                            <!---------------------------- Accessories Menu Start --------------------------------->
-                            <li><a href="{{ route('front.accessories') }}" class="{{ request()->is('sex-doll/accessories') ? 'active' : '' }}">Accessories</a></li>
-                            <!---------------------------- Accessories Menu End --------------------------------->
-                            <li><a href="{{ route('front.toys') }}" class="{{ request()->is('sex-doll/toys') ? 'active' : '' }}">Sextoys</a></li>
-                            <li><a href="{{ route('front.underwears') }}" class="{{ request()->is('sex-doll/underwears') ? 'active' : '' }}">Underwears</a></li>
-                            <li><a href="{{ route('front.shops') }}" class="{{ request()->is('sex-doll/shops') ? 'active' : '' }}">Shops</a></li>
-
+            <div class="mobile-menu-area">
+                <div class="mobile-menu">
+                    <nav id="mobile-menu-active">
+                        <ul class="menu-overflow">
+                            <li><a href="index.html">HOME</a>
+                                <ul>
+                                    <li><a href="#">Demo Group 01</a>
+                                        <ul>
+                                            <li><a href="index.html">Home 1 – Fashion</a></li>
+                                            <li><a href="index-2.html">Home 2 – Fashion</a></li>
+                                            <li><a href="index-3.html">Home 3 – Fashion</a></li>
+                                            <li><a href="index-4.html">Home 4 – Fashion</a></li>
+                                            <li><a href="index-5.html">Home 5 – Fashion</a></li>
+                                            <li><a href="index-6.html">Home 6 – Fashion</a></li>
+                                            <li><a href="index-7.html">Home 7 – Fashion</a></li>
+                                            <li><a href="index-8.html">Home 8 – Minimal</a></li>
+                                            <li><a href="index-9.html">Home 9 – Electronics</a></li>
+                                            <li><a href="index-10.html">Home 10 – Furniture</a></li>
+                                            <li><a href="index-11.html">Home 11 - showcase slider</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Demo Group 02</a>
+                                        <ul>
+                                            <li><a href="index-12.html">Home 12 – Plants</a></li>
+                                            <li><a href="index-13.html">Home 13 – Cosmetic</a></li>
+                                            <li><a href="index-14.html">Home 14 – Christmas</a></li>
+                                            <li><a href="index-15.html">Home 15 – Fruit</a></li>
+                                            <li><a href="index-16.html">Home 16 –  Black Friday</a></li>
+                                            <li><a href="index-17.html">Home 17 – Flower</a></li>
+                                            <li><a href="index-18.html">Home 18 – Book</a></li>
+                                            <li><a href="index-19.html">Home 19 – Fashion</a></li>
+                                            <li><a href="index-20.html">Home 20 – Electronics</a></li>
+                                            <li><a href="index-21.html">Home 21 – Furniture</a></li>
+                                            <li><a href="index-22.html">Home 22 – Handmade</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Demo Group 03</a>
+                                        <ul>
+                                            <li><a href="index-23.html">Home 23 – Organic</a></li>
+                                            <li><a href="index-24.html">Home 24 – Pet Food</a></li>
+                                            <li><a href="index-25.html">Home 25 – Auto Parts</a></li>
+                                            <li><a href="index-26.html">Home 26 – Cake Shop</a></li>
+                                            <li><a href="index-27.html">Home 27 – Kids Fashion</a></li>
+                                            <li><a href="index-28.html">Home 28 – Book Shop</a></li>
+                                            <li><a href="index-29.html">Home 29 – Flower Shop</a></li>
+                                            <li><a href="index-30.html">Home 30 – Instagram</a></li>
+                                            <li><a href="index-31.html">Home 31 – Black Friday</a></li>
+                                            <li><a href="index-32.html">Home 32 – Valentine Day</a></li>
+                                            <li><a href="index-33.html">Home 33 – Medical Equipment</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="shop.html">Shop</a>
+                                <ul>
+                                    <li><a href="#">shop layout</a>
+                                        <ul>
+                                            <li><a href="shop.html">standard style</a></li>
+                                            <li><a href="shop-filter.html">Grid filter style</a></li>
+                                            <li><a href="shop-grid-2-col.html">Grid 2 column</a></li>
+                                            <li><a href="shop-no-sidebar.html">Grid No sidebar</a></li>
+                                            <li><a href="shop-grid-fw.html">Grid full wide </a></li>
+                                            <li><a href="shop-right-sidebar.html">Grid right sidebar</a></li>
+                                            <li><a href="shop-list.html">list 1 column box </a></li>
+                                            <li><a href="shop-list-fw.html">list 1 column full wide </a></li>
+                                            <li><a href="shop-list-fw-2col.html">list 2 column  full wide</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">product details</a>
+                                        <ul>
+                                            <li><a href="product-details.html">tab style 1</a></li>
+                                            <li><a href="product-details-2.html">tab style 2</a></li>
+                                            <li><a href="product-details-3.html">tab style 3</a></li>
+                                            <li><a href="product-details-4.html">sticky style</a></li>
+                                            <li><a href="product-details-5.html">gallery style </a></li>
+                                            <li><a href="product-details-slider-box.html">Slider style</a></li>
+                                            <li><a href="product-details-affiliate.html">affiliate style</a></li>
+                                            <li><a href="product-details-6.html">fixed image style </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="shop.html">Collection</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="about.html">about us</a></li>
+                                    <li><a href="cart-page.html">cart page</a></li>
+                                    <li><a href="checkout.html">checkout </a></li>
+                                    <li><a href="wishlist.html">wishlist </a></li>
+                                    <li><a href="my-account.html">my account</a></li>
+                                    <li><a href="login-register.html">login / register </a></li>
+                                    <li><a href="contact.html">contact us </a></li>
+                                    <li><a href="404.html">404 page </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">blog standard</a></li>
+                                    <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
+                                    <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
+                                    <li><a href="blog-details.html">blog details 1</a></li>
+                                    <li><a href="blog-details-2.html">blog details 2</a></li>
+                                    <li><a href="blog-details-3.html">blog details 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
-                    </div>
-                    <!-------------------------------------   Menu bar. Including products, accessories, underwear, shops  end -------------------------------------->
-                    <div class="hdr-links-wrap col-auto ml-auto">
-                        <div class="hdr-inline-link">
-                            <div class="search_container_desktop">
-                                <div class="dropdn dropdn_search dropdn_fullwidth">
-                                    <a href="#" class="dropdn-link  js-dropdn-link only-icon"><i class="icon-search"></i><span class="dropdn-link-txt">Search</span></a>
-                                    <div class="dropdn-content">
-                                        <div class="container">
-                                            <form method="get" action="#" class="search search-off-popular">
-                                                <input name="search" type="text" class="search-input input-empty" placeholder="What are you looking for?">
-                                                <button type="submit" class="search-button"><i class="icon-search"></i></button>
-                                                <a href="#" class="search-close js-dropdn-close"><i class="icon-close-thin"></i></a>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-<!--------------------------------   Favourite button at the top of the page start ---------------------------------->
-                            {{-- <div class="dropdn dropdn_wishlist">
-                                <a href="{{ url ('/wishlist')}}"  class="dropdn-link only-icon wishlist-link ">
-                                    <i class="icon-heart"></i><span class="dropdn-link-txt">Wishlist</span><span class="wishlist-qty">5</span>
-                                </a>
-                            </div> --}}
-                            {{-- <div class="hdr_container_mobile show-mobile">
-                                <div class="dropdn dropdn_account dropdn_fullheight">
-                                    <a href="#" class="dropdn-link js-dropdn-link" data-panel="#dropdnAccount"><i class="icon-user"></i><span class="dropdn-link-txt">Account</span></a>
-                                </div>
-                            </div> --}}
-<!-----------------------------------   Favourite button at the top of the page end ---------------------------------->
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
     </div>
 </header>
-<div class="header-side-panel">
-    <div class="mobilemenu js-push-mbmenu">
-        <div class="mobilemenu-content">
-            <div class="mobilemenu-close mobilemenu-toggle">Close</div>
-            <div class="mobilemenu-scroll">
-                <div class="mobilemenu-search"></div>
-                <div class="nav-wrapper show-menu">
-                    <div class="nav-toggle">
-                        <span class="nav-back"><i class="icon-angle-left"></i></span>
-                        <span class="nav-title"></span>
-                        <a href="#" class="nav-viewall">view all</a>
-                    </div>
-                    <ul class="nav nav-level-1">
-                        <li><a href="{{ route('front.home')}}">Sex Dolls</a>
-
-                        </li>
-                        <li><a href="{{ route('front.accessories')}}">Accessories</a>
-
-                        </li>
-                        <li><a href="{{ route('front.toys')}}">Toys</a>
-
-                        </li>
-                        <li><a href="{{ route('front.underwears')}}">Underwears</a></li>
-                        <li><a href="{{ route('front.shops')}}">Shop</a></li>
-                    </ul>
-                </div>
-                {{-- <div class="mobilemenu-bottom">
-                    <div class="mobilemenu-currency">
-                        <div class="dropdn_currency">
-                            <div class="dropdn dropdn_caret">
-                                <a href="#" class="dropdn-link js-dropdn-link">US dollars<i class="icon-angle-down"></i></a>
-                                <div class="dropdn-content">
-                                    <ul>
-                                        <li class="active"><a href="#"><span>US dollars</span></a></li>
-                                        <li><a href="#"><span>Euro</span></a></li>
-                                        <li><a href="#"><span>UK pounds</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mobilemenu-language">
-                        <div class="dropdn_language">
-                            <div class="dropdn dropdn_language dropdn_language--noimg dropdn_caret">
-                                <a href="#" class="dropdn-link js-dropdn-link"><span class="js-dropdn-select-current">English</span><i class="icon-angle-down"></i></a>
-                                <div class="dropdn-content">
-                                    <ul>
-                                        <li class="active"><a href="#"><img src="{{ asset("public/assets/front") }}/images/flags/en.html" alt="">English</a></li>
-                                        <li><a href="#"><img src="{{ asset("public/assets/front") }}/images/flags/sp.html" alt="">Spanish</a></li>
-                                        <li><a href="#"><img src="{{ asset("public/assets/front") }}/images/flags/de.html" alt="">German</a></li>
-                                        <li><a href="#"><img src="{{ asset("public/assets/front") }}/images/flags/fr.html" alt="">French</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
-        </div>
-    </div>
-    <div class="dropdn-content account-drop" id="dropdnAccount">
-        <div class="dropdn-content-block">
-            <div class="dropdn-close"><span class="js-dropdn-close">Close</span></div>
-            <ul>
-                <li><a href="{{ route("login") }}"><span>Log In</span><i class="icon-login"></i></a></li>
-                <li><a href="{{ route("register") }}"><span>Register</span><i class="icon-user2"></i></a></li>
-
-            </ul>
-            <div class="dropdn-form-wrapper">
-                <h5>Quick Login</h5>
-                <form action="{{ route('login') }}" method="post">
-                    @csrf
-                    <div class="form-group">
-                        <input type="email" name="email" class="form-control form-control--sm is-invalid" placeholder="Enter your e-mail">
-                        <div class="invalid-feedback">Can't be blank</div>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" name="password" class="form-control form-control--sm" placeholder="Enter your password">
-                    </div>
-                    <button type="submit" class="btn">Enter</button>
-                </form>
-            </div>
-        </div>
-        <div class="drop-overlay js-dropdn-close"></div>
-    </div>
-
-</div>
 <!------------------------------------- Menu end-------------------------------------->

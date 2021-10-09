@@ -31,8 +31,6 @@ class FrontController extends Controller
     public function index(Request $request)
     {
 
-       
-
         if ($request->gender) {
             $gender = $request->gender;
         } else {
