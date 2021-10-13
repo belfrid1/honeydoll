@@ -1,45 +1,103 @@
 <!-------------------------------------  Menu start-------------------------------------->
-<header class="header-area clearfix header-hm9 transparent-bar">
-    <div class="container">
-        <div class="header-top-area">
-            <div class="row">
-                <div class="col-lg-5 col-md-8 col-12">
-                    <div class="language-currency-wrap">
-                        <div class="same-language-currency language-style">
-                            <a href="#">English <i class="fa fa-angle-down"></i></a>
-                            <div class="lang-car-dropdown">
-                                <ul>
-                                    <li><a href="#">French </a></li>
-{{--                                    <li><a href="#">Bangla </a></li>--}}
-{{--                                    <li><a href="#">Hindi  </a></li>--}}
-{{--                                    <li><a href="#">Spanish </a></li>--}}
-                                </ul>
-                            </div>
+<header class="header-area clearfix">
+    <div class="header-top-area header-padding-2">
+        <div class="container-fluid">
+            <div class="header-top-wap">
+                <div class="language-currency-wrap">
+                    <div class="same-language-currency language-style">
+                        <a href="#">English <i class="fa fa-angle-down"></i></a>
+                        <div class="lang-car-dropdown">
+                            <ul>
+                                <li><a href="#">French </a></li>
+
+                            </ul>
                         </div>
-{{--                        <div class="same-language-currency use-style">--}}
-{{--                            <a href="#">USD  <i class="fa fa-angle-down"></i></a>--}}
-{{--                            <div class="lang-car-dropdown">--}}
-{{--                                <ul>--}}
-{{--                                    <li><a href="#">Taka (BDT) </a></li>--}}
-{{--                                    <li><a href="#">Riyal (SAR) </a></li>--}}
-{{--                                    <li><a href="#">Rupee (INR)  </a></li>--}}
-{{--                                    <li><a href="#">Dirham (AED) </a></li>--}}
-{{--                                </ul>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="same-language-currency">--}}
-{{--                            <p>Call Us 3965410</p>--}}
-{{--                        </div>--}}
                     </div>
+{{--                    <div class="same-language-currency use-style">--}}
+{{--                        <a href="#">USD  <i class="fa fa-angle-down"></i></a>--}}
+{{--                        <div class="lang-car-dropdown">--}}
+{{--                            <ul>--}}
+{{--                                <li><a href="#">Taka (BDT) </a></li>--}}
+{{--                                <li><a href="#">Riyal (SAR) </a></li>--}}
+{{--                                <li><a href="#">Rupee (INR)  </a></li>--}}
+{{--                                <li><a href="#">Dirham (AED) </a></li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="same-language-currency">--}}
+{{--                        <p>Call Us 3965410</p>--}}
+{{--                    </div>--}}
                 </div>
-                <div class="col-lg-2 d-none d-lg-block">
-                    <div class="logo-hm9 text-center">
+{{--                <div class="header-offer">--}}
+{{--                    <p>Free delivery on order over <span>$200</span></p>--}}
+{{--                </div>--}}
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom sticky-bar header-res-padding header-padding-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-6 col-4">
+                    <div class="logo">
                         <a href="index.html">
                             <img alt="" src="assets/img/logo/logo.png">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-4 col-12">
+                <div class="col-xl-8 col-lg-8 d-none d-lg-block">
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="/">Sex-Dolls </a></li>
+                                <li><a href="shop.html"> Shop <i class="fa fa-angle-down"></i> </a>
+                                    <ul class="mega-menu">
+                                        <li>
+                                            <ul>
+                                                <li class="mega-menu-title"><a href="#">Recommended</a></li>
+                                                <li><a href="https://sexdollgenie.com?aff=466">SexdollGenie</a></li>
+                                                <li><a href="https://www.yourdoll.com">Yourdoll</a></li>
+                                                <li><a href="https://siliconelovers.com/">Siliconelovers</a></li>
+                                                <li><a href="https://sexyrealsexdolls.com/">Sexyrealsexdolls</a></li>
+                                                <li><a href="https://www.sexdoll.co.uk/">Sexdoll</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="mega-menu-title"><a href="#">Other Website</a></li>
+                                                <li><a href="https://bigassdoll.com/sex-doll">BigAssDoll</a></li>
+                                                <li><a href="https://afrosexxx.com/">Afrosexxx </a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="mega-menu-img"><a href="#"><img src="assets/img/product/homepage/2017newe.jpg" alt=""></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+{{--                                <li><a href="/shops">Collection</a></li>--}}
+{{--                                <li><a href="#"> Pages <i class="fa fa-angle-down"></i></a>--}}
+{{--                                    <ul class="submenu">--}}
+{{--                                        <li><a href="about.html">about us</a></li>--}}
+{{--                                        <li><a href="cart-page.html">cart page</a></li>--}}
+{{--                                        <li><a href="checkout.html">checkout </a></li>--}}
+{{--                                        <li><a href="wishlist.html">wishlist </a></li>--}}
+{{--                                        <li><a href="my-account.html">my account</a></li>--}}
+{{--                                        <li><a href="login-register.html">login / register </a></li>--}}
+{{--                                        <li><a href="contact.html">contact us </a></li>--}}
+{{--                                        <li><a href="404.html">404 page </a></li>--}}
+{{--                                    </ul>--}}
+{{--                                </li>--}}
+                                <li><a href="#">Videos </a>
+{{--                                <li><a href="#">Blog </a>--}}
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-8">
                     <div class="header-right-wrap">
                         <div class="same-style header-search">
                             <a class="search-active" href="#"><i class="pe-7s-search"></i></a>
@@ -108,89 +166,6 @@
 {{--                                </div>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header-bottom sticky-bar header-res-padding header-padding-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-block d-lg-none">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img alt="" src="assets/img/logo/logo.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-12 col-lg-12 d-none d-lg-block">
-                    <div class="main-menu">
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Sex-dolls</a></li>
-                                <li><a href="shop.html"> Shop <i class="fa fa-angle-down"></i> </a>
-                                    <ul class="mega-menu">
-                                        <li>
-                                            <ul>
-                                                <li class="mega-menu-title"><a href="#">shop layout</a></li>
-                                                <li><a href="shop.html">standard style</a></li>
-                                                <li><a href="shop-filter.html">Grid filter style</a></li>
-                                                <li><a href="shop-grid-2-col.html">Grid 2 column</a></li>
-                                                <li><a href="shop-no-sidebar.html">Grid No sidebar</a></li>
-                                                <li><a href="shop-grid-fw.html">Grid full wide </a></li>
-                                                <li><a href="shop-right-sidebar.html">Grid right sidebar</a></li>
-                                                <li><a href="shop-list.html">list 1 column box </a></li>
-                                                <li><a href="shop-list-fw.html">list 1 column full wide </a></li>
-                                                <li><a href="shop-list-fw-2col.html">list 2 column  full wide</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <ul>
-                                                <li class="mega-menu-title"><a href="#">product details</a></li>
-                                                <li><a href="product-details.html">tab style 1</a></li>
-                                                <li><a href="product-details-2.html">tab style 2</a></li>
-                                                <li><a href="product-details-3.html">tab style 3</a></li>
-                                                <li><a href="product-details-4.html">sticky style</a></li>
-                                                <li><a href="product-details-5.html">gallery style </a></li>
-                                                <li><a href="product-details-slider-box.html">Slider style</a></li>
-                                                <li><a href="product-details-affiliate.html">affiliate style</a></li>
-                                                <li><a href="product-details-6.html">fixed image style </a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <ul>
-                                                <li class="mega-menu-img"><a href="shop.html"><img src="assets/img/banner/banner-12.png" alt=""></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="shop.html">Collection</a></li>
-                                <li><a href="#"> Pages <i class="fa fa-angle-down"></i></a>
-                                    <ul class="submenu">
-                                        <li><a href="about.html">about us</a></li>
-                                        <li><a href="cart-page.html">cart page</a></li>
-                                        <li><a href="checkout.html">checkout </a></li>
-                                        <li><a href="wishlist.html">wishlist </a></li>
-                                        <li><a href="my-account.html">my account</a></li>
-                                        <li><a href="login-register.html">login / register </a></li>
-                                        <li><a href="contact.html">contact us </a></li>
-                                        <li><a href="404.html">404 page </a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                                    <ul class="submenu">
-                                        <li><a href="blog.html">blog standard</a></li>
-                                        <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
-                                        <li><a href="blog-details.html">blog details 1</a></li>
-                                        <li><a href="blog-details-2.html">blog details 2</a></li>
-                                        <li><a href="blog-details-3.html">blog details 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html"> About </a></li>
-                                <li><a href="contact.html"> Contact</a></li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
             </div>

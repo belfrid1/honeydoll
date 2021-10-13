@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from big-skins.com/frontend/foxic-html-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Feb 2021 11:50:59 GMT -->
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMZVDMS8E0"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E547D326CC"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-    gtag('config', 'G-GMZVDMS8E0');
-    </script>
+	  gtag('config', 'G-E547D326CC');
+	</script>
     <meta charset="utf-8">
-    <title>Bigassdoll: SEX-DOLL | @yield('title')</title>
+    <title>XDOLLKISS: SEX-DOLL | @yield('title')</title>
     @yield('description')
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="author" content="">
-    {{-- <title>{{ config('app.name', 'AFFLIATE PRODUCT') }} | @yield('title')</title> --}}
+
 {{--    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('public/assets/front/images/favicon.ico') }}" />--}}
 {{--    <link href="{{ asset('public/assets/front/css/vendor/bootstrap.min.css') }}" rel="stylesheet">--}}
 {{--    <link href="{{ asset('public/assets/front/css/vendor/vendor.min.css') }}" rel="stylesheet">--}}
@@ -74,6 +72,4 @@
 @yield('javascripts')
 
 </body>
-
-<!-- Mirrored from big-skins.com/frontend/foxic-html-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Feb 2021 11:52:49 GMT -->
 </html>

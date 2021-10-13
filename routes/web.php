@@ -40,12 +40,12 @@ Route::get('adminloginadmin', 'Auth\LoginController@showLoginForm');
 
 // Route::get('adminregisteradmin', 'Auth\RegisterController@showRegistrationForm');
 /////////////////////////////////// Frontend Route
-Route::redirect('/', '/sex-doll', 301);
+//Route::redirect('/', '/sex-doll', 301);
 
 //Route::get('/sex-doll', 'FrontController@index')->name('front.home');
-Route::get('/sex-doll', [FrontController::class, 'index'])->name('front.home');
+Route::get('/', [FrontController::class, 'index'])->name('front.home');
 Route::get('/sex-doll/accessories', 'FrontController@accessories')->name('front.accessories');
-Route::get('/sex-doll/shops', 'FrontController@shops')->name('front.shops');
+Route::get('/shops', [FrontController::class, 'shops'])->name('front.shops');
 Route::get('/sex-doll/toys', 'FrontController@toys')->name('front.toys');
 Route::get('/sex-doll/underwears', 'FrontController@underwears')->name('front.underwears');
 Route::get('/front/choicecheckeds', 'FrontController@choiceCheckeds')->name('front.choiceCheckeds');

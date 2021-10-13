@@ -9,7 +9,7 @@
                             <img alt="" src="assets/img/logo/logo.png">
                         </a>
                     </div>
-                    <p>© 2021 <a href="#">Flone</a>.<br> All Rights Reserved</p>
+                    <p>© 2021 <a href="#">XDOLLKISS</a>.<br> All Rights Reserved</p>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4">

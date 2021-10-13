@@ -1,7 +1,7 @@
 @extends("front.layouts.app")
-@section("title", "SEX-DOLLS MAIN PRODUCTS")
+@section("title", "SEX-DOLLS HOME PAGE")
 @section('description')
-    <meta name="description" content="+1000 sex dolls in stock,  buy tpe or silicone love doll on our store, highest quality materials worlwide discreet shipping. We offer the best choices from every brands retailer. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
+    <meta name="description" content="Buy tpe or silicone love doll on our store. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
 @endsection
 @section('stylesheets')
     {{-- <title>{{ config('app.name', 'AFFLIATE PRODUCT') }} | @yield('title')</title> --}}
@@ -22,42 +22,34 @@
 @endsection
 @section('content')
     <div class="slider-area">
-        <div class="slider-active owl-carousel nav-style-1 owl-dot-none">
-            <div class="slider-height-7 bg-glaucous d-flex align-items-center">
+        <div class="slider-active owl-carousel nav-style-1  owl-dot-none">
+            <div class="single-slider-2 slider-height-2 d-flex align-items-center bg-img" style="background-image:url(assets/img/slider/sex-doll-hilda-167-cm-5-6-h-cup-sex-doll-genie_2000x.jpg);">
                 <div class="container">
-                    <div class="row align-items-center slider-h9-mrg">
-                        <div class="col-lg-6 col-md-6 col-12 col-sm-6">
-                            <div class="slider-content-7 slider-animated-1">
-                                <h3 class="animated">New Arrival</h3>
-                                <h1 class="animated">New Design <br>Bluetooth Speaker</h1>
-                                <div class="slider-btn-9 btn-hover">
-                                    <a class="animated" href="shop.html">SHOP NOW</a>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-7 col-md-8 col-12 ms-auto">
+                            <div class="slider-content-3 slider-animated-1 text-center">
+                                <h3 class="animated">Hilda</h3>
+                                <h1 class="animated">SEX DOLL GENIE</h1>
+                                <p class="animated">Hilda - 167 cm | 5' 6" - J Cup</p>
+                                <div class="slider-btn btn-hover">
+                                    <a class="animated" href="https://sexdollgenie.com?aff=466">SHOP NOW</a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 col-sm-6">
-                            <div class="slider-singleimg-hm9 slider-animated-1">
-                                <img class="animated" src="assets/img/slider/single-slide-3.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slider-height-7 bg-glaucous d-flex align-items-center">
+            <div class="single-slider-2 slider-height-2 d-flex align-items-center bg-img" style="background-image:url(assets/img/slider/yourdoll-sex-doll-on-sale-20210930-2.jpg);width: 1300px; height: 600px">
                 <div class="container">
-                    <div class="row align-items-center slider-h9-mrg">
-                        <div class="col-lg-6 col-md-6 col-12 col-sm-6">
-                            <div class="slider-content-7 slider-animated-1">
-                                <h3 class="animated">New Arrival</h3>
-                                <h1 class="animated">New Design <br>Bluetooth Speaker</h1>
-                                <div class="slider-btn-9 btn-hover">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-7 col-md-8 col-12 ms-auto">
+                            <div class="slider-content-3 slider-animated-1 text-center">
+{{--                                <h3 class="animated">Stylish</h3>--}}
+{{--                                <h1 class="animated">Male Clothes</h1>--}}
+{{--                                <p class="animated">30% off Summer Vacation</p>--}}
+                                <div class="slider-btn btn-hover">
                                     <a class="animated" href="shop.html">SHOP NOW</a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 col-sm-6">
-                            <div class="slider-singleimg-hm9 slider-animated-1 ml-100 mr-100">
-                                <img class="animated" src="assets/img/slider/single-slide-6.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -65,6 +57,190 @@
             </div>
         </div>
     </div>
+
+    <div class="suppoer-area pt-100 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="support-wrap-2 mb-30 support-shape text-center">
+                        <div class="support-content-2">
+                            <img class="animated" src="assets/img/icon-img/support-1.png" alt="">
+                            <h5>Free Shipping</h5>
+                            <p>We offer FREE worldwide shipping on all sex dolls.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="support-wrap-2 mb-30 support-shape text-center">
+                        <div class="support-content-2">
+                            <img class="animated" src="assets/img/icon-img/support-2.png" alt="">
+                            <h5>What is a Sex Doll?</h5>
+                            <p>Sex dolls are a form of adult toys for aiding sexual gratification. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="support-wrap-2 mb-30 text-center">
+                        <div class="support-content-2">
+                            <img class="animated" src="assets/img/icon-img/support-3.png" alt="">
+                            <h5>Money Return</h5>
+                            <p>Lorem ipsum dolor sit amet consectetu adipisicing elit sed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-area pb-60 section-padding-1">
+        <div class="container-fluid">
+            <div class="section-title-2 text-center mb-60">
+                <h2>New Arrival</h2>
+            </div>
+            <div class="custom-row">
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/2017newe.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/2017newe.jpg" alt="">
+                            </a>
+                            <span class="pink">-10%</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Sheep Wool Sweater</a></h3>
+                                <div class="price-2">
+                                    <span>$ 60.00</span>
+                                    <span class="old">$ 60.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/1552642941113431_300x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/1552642941113431_300x.jpg" alt="">
+                            </a>
+                            <span class="purple">New</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Gray Backpack</a></h3>
+                                <div class="price-2">
+                                    <span>$ 70.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                            </a>
+                            <span class="pink">-10%</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Optical Instrument</a></h3>
+                                <div class="price-2">
+                                    <span>$ 40.00</span>
+                                    <span class="old">$ 50.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                            </a>
+                            <span class="purple">New</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Panama Hat</a></h3>
+                                <div class="price-2">
+                                    <span>$ 80.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                            </a>
+                            <span class="pink">-10%</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Timex Watch</a></h3>
+                                <div class="price-2">
+                                    <span>$ 30.00</span>
+                                    <span class="old">$ 40.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+        <div style="text-align: center" >
+            <a href="https://sexdollgenie.com?aff=466" rel="nofollow" ><img src="https://www.affiliatly.com/affiliate_files/banners/20714/Banner 2.jpg" width="800" height="220" alt="" /></a>
+        </div>
 {{--    <div class="page-content">--}}
 {{--    <!------------------------------------- Landing page slider start-------------------------------------->--}}
 {{--            <div class="holder fullwidth full-nopad mt-0">--}}
