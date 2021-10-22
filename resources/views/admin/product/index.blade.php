@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "PRODUCT")
+@section("title", "XDOLLKISS-PRODUCT")
 
 @section("link")
 

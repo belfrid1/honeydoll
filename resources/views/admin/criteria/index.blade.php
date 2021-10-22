@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "ADD/EDIT CRITERIA")
+@section("title", "XDOLLKISS-ADD/EDIT CRITERIA")
 @section("link")
 <style type="text/css">
     img {

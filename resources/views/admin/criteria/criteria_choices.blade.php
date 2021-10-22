@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "GROUP Choice LIST")
+@section("title", "XDOLLKISS-GROUP Choice LIST")
 @section("link")
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <style type="text/css">

@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "GROUP CRITERIA LIST")
+@section("title", "XDOLLKISS-GROUP CRITERIA LIST")
 @section("content")
 <!------------------------------------- admin shop start -------------------------------------->
     <!------------------------------------- content section header start -------------------------------------->

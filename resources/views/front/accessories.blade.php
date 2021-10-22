@@ -1,5 +1,5 @@
 @extends("front.layouts.app")
-@section("title", "ACCESSORIES")
+@section("title", "X DOLL KISS-ACCESSORIES")
 <!------------------------------------- Accessories page content start-------------------------------------->
 @section('content')
 <div class="page-content">

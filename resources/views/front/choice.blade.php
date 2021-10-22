@@ -1,15 +1,15 @@
 @extends("front.layouts.app")
 @isset($data)
-    @section("title", "$data->google_title")
+    @section("title", "X DOLL KISS- | $data->google_title")
     @section('description')
-    <meta name="description" content="{{$data->choice_text}}">
+    <meta name="description" content="X DOLL KISS">
 @endsection
 @endisset
 @section('stylesheets')
      <style>
         .prd:not([class*='prd-w']), .prd-hor:not([class*='prd-w']), .prd-promo:not([class*='prd-w']) {
             opacity: 1 !important;
-        }   
+        }
     </style>
 @endsection
 

@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "ASSIGN CRITERIA")
+@section("title", "XDOLLKISS-ASSIGN CRITERIA")
 @section('link')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
 

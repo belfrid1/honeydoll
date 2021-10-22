@@ -12,7 +12,7 @@
         gtag('config', 'G-E547D326CC');
     </script>
     <meta charset="utf-8">
-    <title>XDOLLKISS : , | @yield('title')</title>
+    <title>XDOLLKISS : SEX-DOLL - X DOLL KISS</title>
     <meta name="description" content="Buy tpe or silicone love doll on our store. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

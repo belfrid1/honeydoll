@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "SHOP")
+@section("title", "XDOLLKISS-SHOP")
 @section("link")
 <style type="text/css">
     img {

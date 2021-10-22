@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "SHOPS LIST")
+@section("title", "XDOLLKISS-SHOPS LIST")
 @section("content")
 <!------------------------------------- admin shop start -------------------------------------->
     <!------------------------------------- content section header start -------------------------------------->

@@ -14,7 +14,7 @@
                             <!-- product  picture start -->
                             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ asset('/') }}{{ $product->productpicture1 }}" alt="{{ $product->productname }}" class="js-prd-img lazyload fade-up">
                             <!-- product picture end  -->
-                            <div class="foxic-loader"></div>
+
                         </a>
                         <!-- Favorite button below each picture start -->
                         <!-- When clients click on favorites the product will be added to their profile
@@ -49,7 +49,7 @@
                             <h2 class="prd-title"><a href="{{ $product->producturl }}" target="_blank" > {{ $product->productname }} </a></h2>
                             <!------------------------------- Products Name end ------------------------------>
                             <div class="prd-description">
-                                Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante sed lacinia.
+                            description
                             </div>
                         </div>
                         <div class="prd-hovers">

@@ -1,7 +1,7 @@
 @extends("front.layouts.app")
-@section("title", "SEX DOLL SHOPS")
+@section("title", "X DOLL KISS-SEX DOLL SHOPS")
 @section('description')
-    <meta name="description" content="Buy tpe or silicone love doll on our store. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
+    <meta name="description" content="X DOLL KISS, Buy tpe or silicone love doll on our store. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
 @endsection
 
 @section('stylesheets')

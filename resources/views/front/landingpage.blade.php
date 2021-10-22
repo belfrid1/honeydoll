@@ -1,10 +1,10 @@
 @extends("front.layouts.app")
-@section("title", "SEX-DOLLS HOME PAGE")
+@section("title", "SEX-DOLLS - X DOLL KISS")
 @section('description')
     <meta name="description" content="Buy tpe or silicone love doll on our store. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
 @endsection
 @section('stylesheets')
-    {{-- <title>{{ config('app.name', 'AFFLIATE PRODUCT') }} | @yield('title')</title> --}}
+
 {{--    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('public/assets/front/images/favicon.ico') }}" />--}}
 {{--    <link href="{{ asset('public/assets/front/css/vendor/bootstrap.min.css') }}" rel="stylesheet">--}}
 {{--    <link href="{{ asset('public/assets/front/css/vendor/vendor.min.css') }}" rel="stylesheet">--}}
@@ -101,10 +101,149 @@
                     <div class="product-wrap-2 mb-25 scroll-zoom">
                         <div class="product-img">
                             <a href="product-details.html">
-                                <img class="default-img" src="assets/img/product/homepage/2017newe.jpg" alt="">
-                                <img class="hover-img" src="assets/img/product/homepage/2017newe.jpg" alt="">
+                                <img class="default-img" src="https://cdn.shopify.com/s/files/1/0055/1957/3103/products/MG_5566_300x.jpg?v=1608039262" alt="">
+                                <img class="hover-img" src="https://cdn.shopify.com/s/files/1/0055/1957/3103/products/MG_4923_540x.jpg?v=1572697790" alt="">
+                            </a>
+                            <span class="pink"></span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Sheep Wool Sweater</a></h3>
+                                <div class="price-2">
+                                    <span>$ 60.00</span>
+                                    <span class="old">$ 60.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/1552642941113431_300x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/1552642941113431_300x.jpg" alt="">
+                            </a>
+                            <span class="purple">New</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Gray Backpack</a></h3>
+                                <div class="price-2">
+                                    <span>$ 70.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
                             </a>
                             <span class="pink">-10%</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Optical Instrument</a></h3>
+                                <div class="price-2">
+                                    <span>$ 40.00</span>
+                                    <span class="old">$ 50.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                            </a>
+                            <span class="purple">New</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Panama Hat</a></h3>
+                                <div class="price-2">
+                                    <span>$ 80.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                                <img class="hover-img" src="assets/img/product/homepage/DSC_1386_150x.jpg" alt="">
+                            </a>
+                            <span class="pink">-10%</span>
+                            <div class="product-action-2">
+                                <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                                <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-content-2">
+                            <div class="title-price-wrap-2">
+                                <h3><a href="product-details.html">Timex Watch</a></h3>
+                                <div class="price-2">
+                                    <span>$ 30.00</span>
+                                    <span class="old">$ 40.00</span>
+                                </div>
+                            </div>
+                            <div class="pro-wishlist-2">
+                                <a title="Wishlist" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-col-5">
+                    <div class="product-wrap-2 mb-25 scroll-zoom">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://cdn.shopify.com/s/files/1/0055/1957/3103/products/MG_5566_300x.jpg?v=1608039262" alt="">
+                                <img class="hover-img" src="https://cdn.shopify.com/s/files/1/0055/1957/3103/products/MG_4923_540x.jpg?v=1572697790" alt="">
+                            </a>
+                            <span class="pink"></span>
                             <div class="product-action-2">
                                 <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
                                 <a title="Quick View" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-eye"></i></a>

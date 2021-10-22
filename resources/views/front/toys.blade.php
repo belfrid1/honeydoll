@@ -1,7 +1,7 @@
 @extends("front.layouts.app")
-@section("title", "SEX DOLL TOYS")
+@section("title", "X DOLL KISS")
 @section('description')
-    <meta name="description" content="+1000 sex dolls in stock,  buy tpe or silicone love doll on our store, highest quality materials worlwide discreet shipping. We offer the best choices from every brands retailer. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
+    <meta name="description" content="X DOLL KISS">
 @endsection
 <!------------------------------------- Toys page content start-------------------------------------->
 @section('content')

@@ -1,5 +1,5 @@
 @extends("admin.layout.app")
-@section("title", "GROUP PRODUCTS LIST")
+@section("title", "X DOLL KISS-GROUP PRODUCTS LIST")
 @section("content")
 <!------------------------------------- admin shop start -------------------------------------->
     <!------------------------------------- content section header start -------------------------------------->

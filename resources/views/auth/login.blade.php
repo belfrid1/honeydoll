@@ -4,9 +4,10 @@
     <div class="page-content">
         <div class="holder breadcrumbs-wrap mt-0">
             <div class="container">
+                <h1>XDOLLKISS - SEX-DOLL</h1>
                 <ul class="breadcrumbs">
                     <li><a href="{{ route('front.home') }}">Home</a></li>
-                    <li><span>Log in </span></li>
+                    <li><span> X DOLL KISS Log in </span></li>
                 </ul>
             </div>
         </div>

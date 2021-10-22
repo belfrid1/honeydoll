@@ -11,7 +11,7 @@
 	  gtag('config', 'G-E547D326CC');
 	</script>
     <meta charset="utf-8">
-    <title>XDOLLKISS: SEX-DOLL | @yield('title')</title>
+    <title>X DOLL KISS : SEX-DOLL - X DOLL KISS</title>
     @yield('description')
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">

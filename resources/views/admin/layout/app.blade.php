@@ -13,11 +13,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <meta name="description" content="+1000 sex dolls in stock,  buy tpe or silicone love doll on our store, highest quality materials worlwide discreet shipping. We offer the best choices from every brands retailer. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
+        <meta name="description" content="+XDOLLKISS, buy tpe or silicone love doll on our store, highest quality materials worlwide discreet shipping. We offer the best choices from every brands retailer. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
         <meta name="author" content="">
         <meta name="_token" content="{{ csrf_token() }}">
         <!-- Tab title start -->
-        <title>Bigassdoll: realistic silicone Sex doll, tpe love doll shop, real life size, affordable cheap price, - {{__('ADMIN') }} | @yield('title')</title>
+        <title>XDOLLKISS: realistic silicone Sex doll, tpe love doll shop, real life size, affordable cheap price, - {{__('ADMIN') }} | @yield('title')</title>
         <!-- Tab title end -->
         <!-- Google Font: Source Sans Pro -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -128,7 +128,7 @@
 
         <script>
             $(function () {
-                
+
                 $('#example2').DataTable({
                     "paging": true,
                     "lengthChange": false,

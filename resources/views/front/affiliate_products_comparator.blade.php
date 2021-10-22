@@ -1,5 +1,5 @@
 @extends("front.layouts.app")
-@section("title", "AFFILIATE PRODUCTS COMPARATOR")
+@section("title", "X DOLL KISS")
 @section('description')
 <meta name="description" content="+1000 sex dolls in stock,  buy tpe or silicone love doll on our store, highest quality materials worlwide discreet shipping. We offer the best choices from every brands retailer. Robot sex doll, Big ass, skinny, bbw, small or big tits, brunette, asian, japanese, brazilian, indian, latina, ebony, realistic pussy.">
 @endsection
@@ -8,7 +8,7 @@
 
     <div class="holder holder-mt-medium ">
         <div class="page-title text-center">
-            <h2>{{__('AFFILIATE PRODUCTS COMPARATOR') }}</h2>
+            <h2>{{__('X DOLL KISS PRODUCTS COMPARATOR') }}</h2>
         </div>
     </div>
     <div class="holder">
